@@ -1,8 +1,0 @@
-&xiao_spi { status = "disabled"; };
-&xiao_serial { status = "disabled"; };
-
-&xiao_i2c {
-    status = "okay";
-};
-
-pro_micro_i2c: &xiao_i2c {};
